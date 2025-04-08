@@ -1,6 +1,5 @@
 package com.eventostec.api.utils;
 
-import com.eventostec.api.exceptions.config.ProblemDetails;
 import jakarta.servlet.http.HttpServletRequest;
 import org.springframework.core.convert.ConversionFailedException;
 import org.springframework.http.HttpStatus;
@@ -8,6 +7,8 @@ import org.springframework.validation.FieldError;
 import org.springframework.web.bind.MethodArgumentNotValidException;
 import org.springframework.web.bind.MissingServletRequestParameterException;
 import org.springframework.web.method.annotation.MethodArgumentTypeMismatchException;
+
+import com.eventostec.api.infrastructure.exceptions.config.ProblemDetails;
 
 import java.util.Optional;
 
